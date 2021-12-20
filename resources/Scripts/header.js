@@ -107,8 +107,8 @@ class Header extends HTMLElement {
                     </li>
             <!--Colition Meetings Dropdown-->        
                     <li class="nav-item dropdown mx-3 my-auto">
-                        <a class="dropdown-toggle" href="coalitionMeetings.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                            Coalition Meetings <span class="caret"></span>
+                        <a class="dropdown-toggle" href="coalitionMeetings.html" id="navbarDropdown" role="button" data-bs-display="static" aria-expanded="false">
+                            Coalition Meeting Resources <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                             <li><a href="agendas.html">Agendas</a></li>
