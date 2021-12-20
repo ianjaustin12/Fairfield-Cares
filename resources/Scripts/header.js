@@ -52,7 +52,7 @@ class Header extends HTMLElement {
             <!--Marijuana Prevent-->
                                 <li >
                                 <div class="btn-group dropend">
-                                  <a type="button" class="btn dropdown-toggle dropend"  aria-expanded="false" href="CannabisPrevention.html">Cannabis Prevention<span class="caret"></span></a>
+                                  <a style="padding-right: 70px;" type="button" class="btn dropdown-toggle dropend"  aria-expanded="false" href="CannabisPrevention.html">Cannabis Prevention<span class="caret"></span></a>
                                       <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <div class = "dropdown-menu">
                                           <li><a href="cannabisPreventionPrograms.html">Prevention Programs</a></li>
@@ -64,7 +64,7 @@ class Header extends HTMLElement {
             <!--Vaping Prevent-->
                                 <li >
                                   <div class="btn-group dropend">
-                                      <a type="button" class="btn dropdown-toggle dropend"  aria-expanded="false">Vaping/Nicotine Prevention<span class="caret"></span></a>
+                                      <a type="button" class="btn dropdown-toggle dropend"  aria-expanded="false" href="vapingPrevention.html">Vaping/Nicotine Prevention<span class="caret"></span></a>
                                       <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <div class = "dropdown-menu">      
                                               <li><a href="vapingPreventionPrograms.html">Prevention Programs</a></li>
@@ -88,7 +88,7 @@ class Header extends HTMLElement {
             <!--Mental Health-->
                                 <li>
                                   <div class="btn-group dropend">
-                                  <a style="padding-right: 40px;" type="button" class="btn dropdown-toggle dropend" aria-expanded="false">Mental Health Wellness<span class="caret"></span></a>
+                                  <a style="padding-right: 40px;" type="button" class="btn dropdown-toggle dropend" aria-expanded="false" href="wellnessPortal.html">Mental Health Wellness<span class="caret"></span></a>
                                       <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                               <div class = "dropdown-menu">  
                                                   <li><a href="wellnessPrograms.html">Wellness Programs</a></li>
