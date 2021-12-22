@@ -21,8 +21,9 @@ class Header extends HTMLElement {
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                     <li class="nav-item mx-3 my-auto"><a href="index.html">Home</a></li>
               <!--About Drop Down-->
-                    <li class="nav-item dropdown mx-3 my-auto">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="aboutUs.html">
+                    <li class="nav-item mx-3 my-auto" id="mobileAboutUsButton"><a href="aboutUs.html">About Fairfield Cares</a></li>
+                    <li class="nav-item dropdown mx-3 my-auto" id="aboutFairfieldCares">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="aboutUs.html" id="#aboutDropdown">
                           About Fairfield CARES <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
