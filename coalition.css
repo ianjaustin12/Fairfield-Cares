@@ -126,18 +126,18 @@ footer a{
     display: block;
     padding-bottom: 0;
     margin-bottom: 0.1em;
-    transition: all 10s ease 0s;
+    
 }
 
 .navbar li:hover .dropdown-menu .dropdown-submenu {
     display: none;
-    transition: all 10s ease 0s;
+   
   }
   
   .navbar li .dropdown-menu li:hover .dropdown-submenu {
     display: block;
     position: relative;
-    transition: all 10s ease 0s;
+    
   }
 
 
@@ -425,8 +425,15 @@ footer a{
     display: flex;
     flex-direction: row;
 }
+#mobileAboutUsButton{
+    display: none;
+}
 @media (max-width: 1000px){
 
+    .navbar .logo img{
+        width: 175px;
+        height: 50px;
+    }
     .navbar li .dropdown-menu li:hover .dropdown-submenu {
         display: none;
         position: relative;
@@ -437,4 +444,125 @@ footer a{
         display: none;
     }
 
+    .btn-group.dropend .dropdown-toggle:after{
+        display: none !important;
+    }
+
+    .btn-group.dropend{
+        display: flex;
+        align-items: center;
+    }
+    .btn-group.dropend a{
+        margin: 0 auto;
+        text-align: center !important;
+    }
+
+
+    .rowContainer img{
+        
+    }
+
+    .splash .splashText h1{
+        font-size: 30px;
+    }
+
+
+    #agendaReference{
+        flex-direction: column;
+    }
+
+   
+
+    #myHomeCalendar{
+        width: 70%;
+    }
+    .calendarContainer iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .calendarContainer a{
+        display: none;
+    }
+    .textContent p{
+        width: 500px;
+    }
+
+    .rowContainer h2{
+        font-size: 20px;
+    }
+    .rowContainer .textContent p{
+        width: 250px;
+    }
+
+  
+}
+
+@media (max-width: 450px){
+
+    .navbar .logo img{
+        width: 175px;
+        height: 50px;
+    }
+
+    #mobileAboutUsButton{
+        display: block;
+    }
+    
+    #aboutFairfieldCares{
+        display: none;
+    }
+
+    .btn-group.dropend .dropdown-toggle:after{
+        display: none !important;
+    }
+    .navbar li .dropdown-menu li:hover .dropdown-submenu {
+        display: none;
+        position: relative;
+      }
+
+    .row .col-mx-6 .container-sm img{
+        display: none;
+    }
+
+    .rowContainer img{
+        display: none;
+    }
+
+    .splash .splashText h1{
+        font-size: 30px;
+    }
+
+    .newsContainer{
+        width: 100%;
+    }
+
+    .contactForm iframe{
+        width: 250px;
+    }
+
+    #agendaReference{
+        flex-direction: column;
+    }
+
+    .calendarContainer{
+        display: none;
+    }
+    .calendarContainer iframe{
+        display: none;
+    }
+    .textContent p{
+        width: 300px;
+    }
+
+    .rowContainer h2{
+        font-size: 20px;
+    }
+    .rowContainer .textContent p{
+        width: 250px;
+    }
+
+    #hubContent img{
+        display: none;
+    }
 }
